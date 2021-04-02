@@ -1,7 +1,7 @@
 
 
 
-# ** Challenge2 Fintech Bootcamp **
+# Challenge2 Fintech Bootcamp 
 
 * Inmproving usability of Loan Qualifier for users"
 
@@ -54,14 +54,14 @@ The project was created in collaboration with Berkeley Fintech Bootcamp team : A
 
 Feel free to contact me via channels
 
-[Email:](nataliaburrey@gmail.com) 
+* Email:(nataliaburrey@gmail.com) 
 [LinkedIn:] (https://www.linkedin.com/in/natalia-burrey-181822175/)
 [Instagram:] (https://www.instagram.com/natamclaren/)
 
 
 ---
 
-##License
+* License
 
 MIT
 
