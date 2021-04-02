@@ -1,7 +1,7 @@
 
 
 
-# ** Challange2 Fintech Bootcamp **
+# ** Challenge2 Fintech Bootcamp **
 
 * Inmproving usability of Loan Qualifier for users"
 
