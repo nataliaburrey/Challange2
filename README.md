@@ -90,7 +90,11 @@ If giving the wrong path, you would see the the message:
     print(f"Found {len(bank_data_filtered)} qualifying loans")
 
     return bank_data_filtered
-```    
+``` 
+You can run this code on the Terminal and this will be a result of interaction with the original Loan Qualifier Application
+[
+<img width="540" alt="Screen Shot 2021-04-03 at 2 38 09 PM" src="https://user-images.githubusercontent.com/80833988/113492257-0af31580-948b-11eb-9d6e-a21869a71150.png">
+](url)
 
 ---
 
