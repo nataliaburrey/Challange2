@@ -40,7 +40,7 @@ In this section, you should include detailed installation notes containing code 
 ## Examples
 
 This section should include screenshots, code blocks, or animations showing how your project works.                      Original Loan Qualifier application, when run, was asking user to give a path to a CSV file with a list of loans containing list of parameters, such as Lender,Max Loan Amount,Max LTV,Max DTI,Min Credit Score,Interest Rate. 
-![correct path to a rate sheet](screen shots/Screen Shot 2021-04-03 at 1.29.11 PM.png) 
+[<img width="815" alt="firstQ" src="https://user-images.githubusercontent.com/80833988/113491779-0842f100-9488-11eb-9d29-29caee91cd6c.png">](url)
 
 ---
 
