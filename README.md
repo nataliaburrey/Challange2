@@ -37,18 +37,15 @@ In this section, you should include detailed installation notes containing code 
 
 ---
 
-## Examples
+## Example: running original Loan Qualifier Application
 
-This section should include screenshots, code blocks, or animations showing how your project works.                      Original Loan Qualifier application, when run, was asking user to give a path to a CSV file with a list of loans containing list of parameters, such as Lender,Max Loan Amount,Max LTV,Max DTI,Min Credit Score,Interest Rate. 
-``` 
-csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
-    csvpath = Path(csvpath)
-    if not csvpath.exists():
-        sys.exit(f"Oops! Can't find this path: {csvpath}")
+ Original Loan Qualifier application was asking user to give a path to a CSV file with a list of loans containing list of parameters (daily rate sheet), containing a list of the banks and related information to them, such as Lender,Max Loan Amount,Max LTV,Max DTI,Min Credit Score,Interest Rate. 
 
-    return load_csv(csvpath)
-```
-If giving the wrong path, you would see the the message:
+[
+<img width="815" alt="firstQ" src="https://user-images.githubusercontent.com/80833988/113492324-73da8d80-948b-11eb-859f-72fe3938aee7.png">
+](url)
+
+If giving the wrong path, the message occurs:
  ```
  
  Oops! Can't find this path
@@ -92,15 +89,29 @@ If giving the wrong path, you would see the the message:
     return bank_data_filtered
 ``` 
 You can run this code on the Terminal and this will be a result of interaction with the original Loan Qualifier Application
+
+
+
 [
 <img width="540" alt="Screen Shot 2021-04-03 at 2 38 09 PM" src="https://user-images.githubusercontent.com/80833988/113492257-0af31580-948b-11eb-9d6e-a21869a71150.png">
 ](url)
 
 ---
 
-## Usage
+## How to use my project
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+This section should include screenshots, code blocks, or animations explaining how to use your project. To make sure all of the pieces of my modular application is working, you should pull all of the files from Challenge2 repo. Chellenge repository was initialized with starter code using Terminal
+
+``` 
+git add .
+git commit -m "Original commit"
+git push
+```
+
+Further changes was made by uploading files directly usin GitHub interface.
+
+
+READme.md was further edited directly on Git Hub to make it easier to preview changes and upload images.
 
 ---
 
