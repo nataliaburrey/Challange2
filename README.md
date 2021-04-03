@@ -1,6 +1,7 @@
 
 
 
+
 # Challenge2 Fintech Bootcamp 
 
 * Inmproving usability of Loan Qualifier for users
@@ -42,7 +43,7 @@ In this section, you should include detailed installation notes containing code 
 This section should include screenshots, code blocks, or animations showing how your project works.
 
 Original Loan Qualifier application, when run, was asking user to give a path to a CSV file with a list of loans containing list of parameters, such as Lender,Max Loan Amount,Max LTV,Max DTI,Min Credit Score,Interest Rate. 
-![correct path to a rate sheet](/Users/nataliaburrey/Desktop/Challenge2/screen shots/Screen Shot 2021-04-03 at 1.29.11 PM.png)
+![correct path to a rate sheet](<img width="815" alt="Screen Shot 2021-04-03 at 1 29 11 PM" src="https://user-images.githubusercontent.com/80833988/113490925-11c95a80-9482-11eb-8fa2-59c351e612df.png">)
 ---
 
 ## Usage
