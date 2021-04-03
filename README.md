@@ -40,7 +40,57 @@ In this section, you should include detailed installation notes containing code 
 ## Examples
 
 This section should include screenshots, code blocks, or animations showing how your project works.                      Original Loan Qualifier application, when run, was asking user to give a path to a CSV file with a list of loans containing list of parameters, such as Lender,Max Loan Amount,Max LTV,Max DTI,Min Credit Score,Interest Rate. 
-[<img width="815" alt="firstQ" src="https://user-images.githubusercontent.com/80833988/113491779-0842f100-9488-11eb-9d29-29caee91cd6c.png">](url)
+``` 
+csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
+    csvpath = Path(csvpath)
+    if not csvpath.exists():
+        sys.exit(f"Oops! Can't find this path: {csvpath}")
+
+    return load_csv(csvpath)
+```
+If giving the wrong path, you would see the the message:
+ ```
+ 
+ Oops! Can't find this path
+ 
+ ```
+ if the right path given, it promts user dialog to get the applicant's financial information
+ 
+ ```
+ credit_score = questionary.text("What's your credit score?").ask()
+    debt = questionary.text("What's your current amount of monthly debt?").ask()
+    income = questionary.text("What's your total monthly income?").ask()
+    loan_amount = questionary.text("What's your desired loan amount?").ask()
+    home_value = questionary.text("What's your home value?").ask()
+
+    credit_score = int(credit_score)
+    debt = float(debt)
+    income = float(income)
+    loan_amount = float(loan_amount)
+    home_value = float(home_value)
+
+    return credit_score, debt, income, loan_amount, home_valu
+```
+ The application than calculates users debt-to-income ratio, loan-to-value ratio and filters it through a list of avaliable loans, gives a number of such
+ 
+ ```
+  monthly_debt_ratio = calculate_monthly_debt_ratio(debt, income)
+    print(f"The monthly debt to income ratio is {monthly_debt_ratio:.02f}")
+
+    # Calculate loan to value ratio
+    loan_to_value_ratio = calculate_loan_to_value_ratio(loan, home_value)
+    print(f"The loan to value ratio is {loan_to_value_ratio:.02f}.")
+
+    # Run qualification filters
+    bank_data_filtered = filter_max_loan_size(loan, bank_data)
+    bank_data_filtered = filter_credit_score(credit_score, bank_data_filtered)
+    bank_data_filtered = filter_debt_to_income(monthly_debt_ratio, bank_data_filtered)
+    bank_data_filtered = filter_loan_to_value(loan_to_value_ratio, bank_data_filtered)
+
+    print(f"Found {len(bank_data_filtered)} qualifying loans")
+
+    return bank_data_filtered
+```    
 
 ---
 
