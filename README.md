@@ -19,7 +19,7 @@ With this new improvement software can prompt the user to save the qualifying lo
 The progect was written in Python, using Visual Studio Code to modified the original file. 
 I used Terminal on MacOC to run the code and later to create repository,upload and modified files on GitHub. 
 
-Conda (dev) inviroment was activated. Multiple libriries was called to use by following commands:
+Conda (dev) inviroment was activated. Multiple libraries was called to use by following commands:
 
 ``` 
 import cvs
@@ -28,13 +28,12 @@ import fire
 import questionary
 from pathlib import Path 
 ```
-[For more information on libryries click on this link]( https://docs.python.org/3/library/csv.html?highlight=csv#module-csv ) 
+[For more information on libraries click on this link]( https://docs.python.org/3/library/csv.html?highlight=csv#module-csv ) 
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
 
 To make sure all of the pieces of my modular application is working, you should pull all of the files from Challenge2 repo. 
 Chellenge repository was initialized with starter code using Terminal. Same way you can pull it to your computer to create a local repo.
@@ -88,6 +87,9 @@ If user chooses to save qualifying loans as a new CSV file, she can find it next
 ```
 ./data/test.csv 
 ```
+[
+<img width="901" alt="Screen Shot 2021-04-03 at 9 25 43 PM" src="https://user-images.githubusercontent.com/80833988/113498595-35f95b80-94c3-11eb-84c4-1e92729958ac.png">
+](url)
 
 If there would be no qualifying loans, the user will get the following message: 
 
