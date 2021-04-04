@@ -1,7 +1,7 @@
 
 
 
-# Challenge2 Fintech Bootcamp 
+# Challenge 2 Fintech Bootcamp 
 
 * Improving usability of Loan Qualifier for users
 
@@ -107,7 +107,6 @@ git add .
 git commit -m "Original commit"
 git push
 ```
-Further changes was made by uploading files directly usin GitHub interface.
 
 READme.md was further edited directly on Git Hub to make it easier to preview changes and upload images.
 
@@ -136,8 +135,8 @@ Tutor Lavina Tang helped me to polish my code and tought me how to run separate 
 Feel free to contact me via channels
 
 * Email:(nataliaburrey@gmail.com) 
-[LinkedIn:] (https://www.linkedin.com/in/natalia-burrey-181822175/)
-[Instagram:] (https://www.instagram.com/natamclaren/)
+* LinkedIn: (https://www.linkedin.com/in/natalia-burrey-181822175/)
+
 
 
 ---
